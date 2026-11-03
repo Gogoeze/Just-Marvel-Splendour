@@ -49,7 +49,7 @@ export default function HowItWorks({ whatsapp }: { whatsapp: string }) {
 
           <Reveal className="mt-12 text-center" delay={500}>
           <a
-            href={whatsappLink("Hello, I'd like to book a consultation.")}
+            href={whatsappLink(whatsapp, "Hello, I'd like to book a consultation.")}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-full bg-leaf px-8 py-3.5 font-medium text-white transition hover:bg-leaf-dark"

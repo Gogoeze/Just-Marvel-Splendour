@@ -32,7 +32,7 @@ export default function Therapy({ items, whatsapp }: { items: Service[]; whatsap
                 <div className="mt-5 flex items-center justify-between">
                   <span className="text-sm text-ink/60">Contact for pricing</span>
                   <a
-                    href={whatsappLink(`Hello, I'd like to enquire about ${s.name}.`)}
+                    href={whatsappLink(whatsapp, `Hello, I'd like to enquire about ${s.name}.`)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm font-medium text-leaf underline-offset-4 hover:underline"
