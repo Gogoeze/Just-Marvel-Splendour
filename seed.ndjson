@@ -1,0 +1,23 @@
+{"_id":"product-p1","_type":"product","name":"Herbal Black Soap","category":"Custom Skincare","description":"Placeholder.","available":true,"order":1}
+{"_id":"product-p2","_type":"product","name":"Moringa Leaves","category":"Herbs & Detox Teas","description":"Placeholder.","available":true,"order":2}
+{"_id":"product-p3","_type":"product","name":"Oil Perfume","category":"Oil Perfumes","description":"Placeholder.","available":true,"order":3}
+{"_id":"product-p4","_type":"product","name":"Pure Organic Honey","category":"Honey & Natural Essentials","description":"Placeholder.","available":true,"order":4}
+{"_id":"product-p5","_type":"product","name":"Handheld Massager","category":"Massage & Therapy Equipment","description":"Placeholder.","available":true,"order":5}
+{"_id":"product-p6","_type":"product","name":"Custom Face Cream","category":"Custom Skincare","price":8500,"description":"Formulated for your skin after consultation.","available":true,"order":6}
+{"_id":"product-p7","_type":"product","name":"Neem Leaves","category":"Herbs & Detox Teas","price":2500,"description":"Placeholder.","available":true,"order":7}
+{"_id":"product-p8","_type":"product","name":"Detox Tea Blend","category":"Herbs & Detox Teas","price":3000,"description":"Placeholder.","available":false,"order":8}
+{"_id":"product-p9","_type":"product","name":"Oil Perfume (Floral)","category":"Oil Perfumes","price":4000,"description":"Placeholder.","available":true,"order":9}
+{"_id":"service-nuga","_type":"service","name":"Nuga Bed Therapy","description":"A relaxing, heat-based bed therapy session to help ease tension and leave your body feeling restored.","order":1}
+{"_id":"service-full","_type":"service","name":"Full Body Massage","description":"A head-to-toe massage tailored to where your body needs the most attention.","order":2}
+{"_id":"service-back","_type":"service","name":"Back & Spine","description":"Focused massage for the back and spine, helpful for stiffness and everyday strain.","order":3}
+{"_id":"service-neck","_type":"service","name":"Neck & Shoulders","description":"Targeted work to ease the tightness that builds up from daily stress and long hours.","order":4}
+{"_id":"service-arms","_type":"service","name":"Arms & Hands","description":"Gentle, focused care for tired arms, wrists, and hands.","order":5}
+{"_id":"service-legs","_type":"service","name":"Legs & Feet","description":"Soothing massage to help tired, heavy legs and feet feel lighter.","order":6}
+{"_id":"service-joint","_type":"service","name":"Joint & Muscle Relief","description":"Targeted therapy to support comfort and movement in sore joints and muscles.","order":7}
+
+
+{"_id":"siteSettings","_type":"siteSettings","name":"Just Marvel Splendour Ventures","tagline":"Nature's remedies, made for your body.","heroText":"Custom skincare, natural herbs, and hands-on therapy. Every journey starts with a one-on-one consultation, so what we make and recommend is right for you.","phone":"0706 845 5419","whatsapp":"2347068455419","email":"justmarvelsplendour@gmail.com","address":"Wuru Junction, Opposite Cocin Church, Kuje Area Council, Kuje, Abuja","hours":"Mon - Sat, 09:00 - 18:00","deliveryNote":"Walk-ins welcome. Delivery is available through Bolt dispatch or your own rider, and the delivery cost is paid by the customer."}
+{"_id":"owner","_type":"owner","name":"Owner Name","story":"Placeholder story, to be replaced with her own words."}
+{"_id":"testimonial-1","_type":"testimonial","name":"Customer Name","quote":"Placeholder review."}
+{"_id":"testimonial-2","_type":"testimonial","name":"Customer Name","quote":"Placeholder review."}
+{"_id":"testimonial-3","_type":"testimonial","name":"Customer Name","quote":"Placeholder review."}
