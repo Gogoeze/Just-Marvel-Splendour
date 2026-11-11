@@ -7,22 +7,30 @@ export default function About({ owner }: { owner: Owner }) {
     <section id="about" className="scroll-mt-16 bg-cream py-20">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 md:grid-cols-2">
         {/* Photo placeholder: replace with <Image> once we have her photo */}
-        <Reveal  className="flex aspect-[4/5] items-center justify-center rounded-3xl bg-gradient-to-br from-leaf/20 to-gold/20 text-leaf/50">
-          {owner.photo ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={owner.photo} alt={owner.name} className="h-full w-full rounded-3xl object-cover" />
-          ) : (
-            <span className="text-sm">Photo of {owner.name}</span>
-          )}
-        </Reveal >
+        <Reveal className="overflow-hidden rounded-3xl shadow-sm">
+  {owner.photo ? (
+    <img 
+      src={owner.photo} 
+      alt={owner.name} 
+      className="h-auto w-full object-contain" 
+    />
+  ) : (
+    <div className="flex aspect-square w-full items-center justify-center bg-gradient-to-br from-leaf/10 to-gold/15 p-8">
+      <span className="text-sm text-ink/60">Image of {owner.name}</span>
+    </div>
+  )}
+</Reveal>
 
-         <Reveal delay={200}>
+
+
+        <Reveal delay={200}>
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-gold">
-            Meet the founder
+            Our Story
           </p>
-          <h2 className="font-serif text-4xl font-semibold text-leaf sm:text-5xl">
+          <h2 className="font-serif text-3xl font-semibold tracking-tight text-leaf sm:text-4xl">
             {owner.name}
           </h2>
+
           <p className="mt-5 whitespace-pre-line text-lg leading-relaxed text-ink/80">
             {owner.story}
           </p>
